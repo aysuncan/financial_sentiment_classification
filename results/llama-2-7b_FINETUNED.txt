@@ -1,0 +1,84 @@
+METHOD: llama-2-7b_FINETUNED
+
+Processing Financial Phrasebank Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.88      0.86      0.87        49
+     neutral       0.92      0.89      0.90       287
+    positive       0.84      0.89      0.86       149
+
+    accuracy                           0.89       485
+   macro avg       0.88      0.88      0.88       485
+weighted avg       0.89      0.89      0.89       485
+
+accuracy: 0.8865979381443299
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 42   7   0]
+ [  6 255  26]
+ [  0  16 133]]
+=======================================
+
+
+
+
+Processing Twitter Financial News Sentiment Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.91      0.80      0.85       347
+     neutral       0.93      0.93      0.93      1566
+    positive       0.82      0.90      0.86       475
+
+    accuracy                           0.91      2388
+   macro avg       0.89      0.88      0.88      2388
+weighted avg       0.91      0.91      0.91      2388
+
+accuracy: 0.907035175879397
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 278   62    7]
+ [  23 1459   84]
+ [   3   43  429]]
+=======================================
+
+
+
+Processing Financial Opinion Mining and_Question Answering Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.55      0.71      0.62        31
+     neutral       0.85      0.66      0.75        86
+    positive       0.63      0.82      0.71        33
+
+    accuracy                           0.71       150
+   macro avg       0.68      0.73      0.69       150
+weighted avg       0.74      0.71      0.71       150
+
+accuracy: 0.7066666666666667
+Confusion Matrix (Rows are predictions)
+=======================================
+[[22  6  3]
+ [16 57 13]
+ [ 2  4 27]]
+=======================================
+
+
+
+Processing News with GPT Instructions Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.76      0.58      0.66       808
+     neutral       0.66      0.60      0.62      1671
+    positive       0.70      0.86      0.77      1568
+
+    accuracy                           0.69      4047
+   macro avg       0.71      0.68      0.68      4047
+weighted avg       0.69      0.69      0.69      4047
+
+accuracy: 0.6931060044477391
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 465  307   36]
+ [ 137  995  539]
+ [   6  217 1345]]
+=======================================

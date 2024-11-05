@@ -1,0 +1,95 @@
+METHOD: llama-2-7b_ZERO_SHOT
+
+Processing Financial Phrasebank Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.90      0.53      0.67        49
+     neutral       0.79      0.34      0.47       287
+    positive       0.44      0.97      0.60       149
+   undefined       0.00      0.00      0.00         0
+
+    accuracy                           0.55       485
+   macro avg       0.53      0.46      0.44       485
+weighted avg       0.69      0.55      0.53       485
+
+accuracy: 0.5525773195876289
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 26  22   1   0]
+ [  3  97 186   1]
+ [  0   4 145   0]
+ [  0   0   0   0]]
+=======================================
+
+
+
+
+Processing Twitter Financial News Sentiment Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.62      0.68      0.65       347
+     neutral       0.80      0.07      0.14      1566
+    positive       0.25      0.98      0.40       475
+   undefined       0.00      0.00      0.00         0
+
+    accuracy                           0.34      2388
+   macro avg       0.42      0.43      0.30      2388
+weighted avg       0.67      0.34      0.26      2388
+
+accuracy: 0.34338358458961477
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 236   25   82    4]
+ [ 139  117 1292   18]
+ [   3    4  467    1]
+ [   0    0    0    0]]
+=======================================
+
+
+
+
+
+Processing Financial Opinion Mining and_Question Answering Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.65      0.65      0.65        31
+     neutral       0.80      0.09      0.17        86
+    positive       0.30      0.97      0.46        33
+   undefined       0.00      0.00      0.00         0
+
+    accuracy                           0.40       150
+   macro avg       0.44      0.43      0.32       150
+weighted avg       0.66      0.40      0.33       150
+
+accuracy: 0.4
+Confusion Matrix (Rows are predictions)
+=======================================
+[[20  2  7  2]
+ [10  8 66  2]
+ [ 1  0 32  0]
+ [ 0  0  0  0]]
+=======================================
+
+
+
+
+Processing News with GPT Instructions Dataset ...
+              precision    recall  f1-score   support
+
+    negative       0.73      0.64      0.68       808
+     neutral       0.64      0.18      0.29      1671
+    positive       0.54      0.97      0.69      1568
+   undefined       0.00      0.00      0.00         0
+
+    accuracy                           0.58      4047
+   macro avg       0.48      0.45      0.41      4047
+weighted avg       0.62      0.58      0.52      4047
+
+accuracy: 0.5806770447244872
+Confusion Matrix (Rows are predictions)
+=======================================
+[[ 514  135  148   11]
+ [ 185  308 1170    8]
+ [   3   36 1528    1]
+ [   0    0    0    0]]
+=======================================
